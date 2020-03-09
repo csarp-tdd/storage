@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace HousNumberStorageProjekt.validation
 {
-    class HousNumberStorage
+    class HouseNumberStorage
     {
         //házszám: legfeljebb háromjegyű pozitív szám amit egy pont zár le
         //hibás házszámok: "", "12","a.", "9999."
         //jó házszámok: "9.", "12.","123."
 
 
-        private string housnumber;
+        private string housenumber;
 
-        public HousNumberStorage(string housnumber)
+        public HouseNumberStorage(string housenumber)
         {
-            this.housnumber = housnumber;
+            this.housenumber = housenumber;
         }
 
         public bool isValid()
